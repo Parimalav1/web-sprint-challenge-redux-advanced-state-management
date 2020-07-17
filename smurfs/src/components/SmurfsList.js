@@ -4,8 +4,9 @@ import Smurfs from './Smurfs';
 import { smurfActions } from '../store/actions'
 
 const SmurfsList = (props) => {
+
     useEffect(() => {
-        console.log('Calling smurfActoins()')
+        console.log('Calling smurfActions()')
         props.smurfActions();
     }, []);
 
@@ -17,8 +18,8 @@ const SmurfsList = (props) => {
             }
             {
                 props.smurfsList.map(x => (
-                    <div className='smurfsList'>
-                        <Smurfs key={x.id} {...x} />
+                    <div key={x.id} className='smurfsList'>
+                        <Smurfs {...x} />
                     </div>
                 ))
             }

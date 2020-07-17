@@ -38,6 +38,7 @@ export const reducer = (state = initialSmurfData, action) => {
                 ...state,
                 isLoading: false,
                 res: action.payload,
+                error: ''
             };
         case SMURF_FAILURE:
             return {

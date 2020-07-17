@@ -1,43 +1,61 @@
 .App {
-  colo: coral;
+  /* background-image: url('https://lh3.googleusercontent.com/proxy/sJ7_aY5G8XJ2RW15Ez9Hk8N2S1CMYE6pXPAM3c2uY40XKnx9FMBlJ4Kik2VR8Rs1MDLWVVAvde0WOE0yqdb_YLC3H8CNNTmZZQ'); */
   text-align: center;
-}
+  background-image: url('https://www.pngitem.com/pimgs/m/200-2002699_painter-smurf-clipart-png-transparent-png.png');
+  background-repeat: no-repeat;   
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  margin: 100px 25%;
+  padding: 36px;
+
+};
+
+.h1 {
+  font-size: 3rem;
+  color: red;
+};
+
+#enter {
+  font-size: 2rem;
+  color: red;
+};
 
 .smurfsList {
   width: 35%;
-  margin: 30px auto;
+  margin: 20px auto;
   display: flex;
   flex-direction: column;
-}
+};
 
 .smurfs {
   padding: 30px;
-  margin: 50px 30px;
-
-}
+  margin: 20px 30px;
+};
 
 .input {
   font-size: 1.5rem;
-    padding: 6px;
+  padding: 6px;
   background: none;
   border: none;
-  color: white;
+  color: blue;
   border-bottom: 1px solid white;
   margin-top: 0;
   margin-right: 8px;
-    text-align: center;
-}
+  text-align: center;
+};
 
 .addBtn {
   padding: 6px 8px;
+  margin: 20px 20px;
   font-size: 16px;
   background: none;
-  color: red;
+  color: red !important;
   border: 1px solid white;
   border-radius: 4px;
-}
+};
 
 .addBtn:hover {
   background-color: #ffffff22;
   color: black;
-}
+};

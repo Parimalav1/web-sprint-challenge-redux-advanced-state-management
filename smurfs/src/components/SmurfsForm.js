@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
-import { addnewSmurf } from '../store/actions'
+import { addnewSmurf } from '../store/actions';
+import "./App.css";
 
 const SmurfsForm = (props) => {
     const [newSmurf, setnewSmurf] = useState({
@@ -27,7 +28,7 @@ const SmurfsForm = (props) => {
     return (
         <div>
             <div>
-                <h3 id='enter'>MAKE YOUR SMURF</h3>
+                <h3 id='enter'>😅 MAKE YOUR SMURF 😅</h3>
                 <div>
                     <input
                         className='input'
